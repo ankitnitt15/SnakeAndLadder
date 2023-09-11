@@ -66,7 +66,7 @@ public class BoardInitializer {
     }
 
     private int generateRandom(int start, int end){
-        return ThreadLocalRandom.current().nextInt(start, end+1);
+        return ThreadLocalRandom.current().nextInt(start, end);
     }
 
     public Board getBoard() {
